@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://localhost:5114';
+axios.defaults.baseURL = "https://authoclient-0uk8.onrender.com";
 
 export default {
   getTasks: async () => {
